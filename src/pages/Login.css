@@ -1,0 +1,54 @@
+.navbar, .footer {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  top: 0;
+  height: 60px;
+}
+
+.footer {
+  bottom: 0;
+  height: 50px;
+}
+
+.main-content {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 110px);
+}
+
+.login-page h2 {
+  margin-bottom: 20px;
+}
+
+.login-page input {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.login-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.login-buttons button {
+  padding: 8px 15px;
+  background-color: #d3d3d3;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 20px;
+}

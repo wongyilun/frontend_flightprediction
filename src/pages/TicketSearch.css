@@ -1,0 +1,130 @@
+.flight-tracker-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.input-group input[type="checkbox"] {
+  margin-left: 10px;
+  width: auto;
+}
+
+.input-group input,
+.input-group select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.input-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+.search-button,
+.search-bar button:last-child {
+  background-color: #d3d3d3;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.search-button:hover,
+.search-bar button:last-child:hover {
+  background-color: #b0b0b0;
+  color: #fff;
+}
+
+.flights-list {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.flight {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.flight h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.flight p {
+  margin: 5px 0;
+}
+
+.footer-component,
+.chatbot-component {
+  margin-top: auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-top: 1px solid #ddd;
+}
+
+.tracker-booking-button {
+  background-color: #d3d3d3;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.tracker-booking-button:hover {
+  background-color: #b0b0b0;
+  color: #fff;
+}
+
+.common-button {
+  background-color: #d3d3d3; 
+  border-radius: 5px; 
+  color: #090808; 
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.common-button:hover {
+  background-color: #b0b0b0; 
+}

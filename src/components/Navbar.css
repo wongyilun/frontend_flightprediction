@@ -1,0 +1,60 @@
+.navbar {
+  padding: 0.5rem 1rem; 
+  padding-right: 2rem; 
+}
+
+.navbar-logo {
+  height: 40px; 
+  margin-right: 10px; 
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center; 
+  white-space: nowrap; 
+}
+
+.logout-button, .notification-button {
+  margin-left: 10px; 
+}
+
+.auth-button {
+  width: 80px; 
+  text-align: center;
+}
+
+.notification-button {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 0; 
+  border-radius: 50%; 
+  width: 2rem; 
+  height: 2rem; 
+  font-size: 1rem; 
+}
+
+.notification-button .fa-bell {
+  font-size: 1rem; 
+}
+
+.navbar-nav {
+  margin-right: 2rem; 
+}
+
+.top-bar .logo {
+  height: 75px;
+  width: auto;  
+}
+
+@media (max-width: 768px) {
+  .top-bar .logo {
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-bar .logo {
+    height: 30px;
+  }
+}

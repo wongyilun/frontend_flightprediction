@@ -1,0 +1,43 @@
+.navbar {
+    padding: 0.5rem 1rem; 
+  }
+  
+  .navbar-logo {
+    height: 40px; 
+    margin-right: 10px; 
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center; 
+    white-space: nowrap; 
+  }
+  
+  .logout-button, .notification-button {
+    margin-left: 10px; 
+  }
+  
+  .notification-button {
+    display: flex;
+    align-items: center; 
+  }
+  
+  /*Logo sizing*/
+  
+  /* large screens */
+  .top-bar .logo {
+    height: 75px;
+    width: auto;  
+  }
+  /* small screens */
+  @media (max-width: 768px) {
+    .top-bar .logo {
+      height: 40px;
+    }
+  }
+  /* very small screens */
+  @media (max-width: 480px) {
+    .top-bar .logo {
+      height: 30px;
+    }
+  }
